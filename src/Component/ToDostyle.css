@@ -1,0 +1,105 @@
+.addTODO{
+    margin: 120px auto;
+    display: grid;
+    /* justify-content: center; */
+    width: 23rem;
+    height: 18rem;
+    justify-content: center;
+    align-items: center;
+    border: 25px solid blue;
+    background-color: aliceblue;
+}
+.formToDo{
+    margin: 0 auto;
+    display: grid;
+}
+.addbutton{
+    width:4rem;
+    position: relative;
+    left: 6.2rem;
+    margin-top: 10px;
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
+.addinput{
+    width: 17rem;
+}
+.todolist{
+    display: grid;
+    justify-content: center;
+    margin: 120px auto;
+    width: 22rem;
+    border: 2px solid  #0d6efd;
+}
+.todolist h2{
+    background: #0d6efd;
+    width: 21.9rem;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+.todohover li:hover{
+    background-color: #D3D3D3;
+}
+.itemtodo{
+    display: flex;
+    align-items: baseline;
+}
+.list-filters{
+    display:flex;
+    justify-content:flex-end;
+    width:20rem;
+}
+#filterlist{
+    width:6rem; 
+    height:5rem;
+    list-style:none;
+    background-color:#f2f1f1; 
+    justify-content:center; 
+    display:none; 
+    position:fixed;
+    left:44rem;
+    top:16.44rem;
+    cursor:pointer;
+    z-index: 1000000; 
+}
+.list-todo{
+    border:0.5px solid; 
+    width: 21.2rem; 
+    margin:0 auto; 
+    height:35px;
+    align-items:center; 
+    cursor:pointer;
+    border-radius:10px; 
+}
+.no-content{
+    width: 21rem;
+    margin: 0 auto;
+}
+.list-one{
+    height:33px; 
+    width:33px;
+    text-align: center; 
+    border-right:1px solid gray;
+    display:grid; 
+    align-items:center;
+}
+.list-image{
+    height:33px;
+    width:33px;
+    text-align:center;
+    display:grid;
+    align-items:center;
+}
+.welcomepage{
+    margin:125px auto; 
+    border:1px solid black;
+    width:25rem;
+    border-right:25px solid blue;
+    border-left:25px solid blue;
+    text-align: center;
+}
+.welcome-space{
+    margin:0 auto;
+    background-color:blue;
+}
